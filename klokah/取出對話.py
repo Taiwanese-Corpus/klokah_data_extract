@@ -1,6 +1,15 @@
 from xml.etree import ElementTree
 
 class 文件檔資料擷取:
+	def 列出(self, 檔案位置):
+		try:
+			return self.列出對話資料(檔案位置)
+		except:
+			pass
+		try:
+			return self.列出對話資料(檔案位置)
+		except:
+			pass
 	def 列出對話資料(self, 檔案位置):
 		樹 = ElementTree.parse(檔案位置)
 		根 = 樹.getroot()
@@ -21,7 +30,7 @@ class 文件檔資料擷取:
 				]
 			for 族語, 華語 in zip(族語資料, 華語資料):
 				if 族語:
-					資料.append((族語, 華語))
+					資料.append((族語.strip(), 華語.strip()))
 			yield 資料編號, 資料
 	def _找出元素資料(self, 物件, 底下tag):
 		結果 = 'None'
@@ -34,14 +43,19 @@ class 文件檔資料擷取:
 		return 結果
 
 if __name__ == '__main__':
-	檔案位置 = '/home/tshau/下載/南排/26原住民學生補充教材離線系統（高中版）/senior/xml/3/16.xml'
-	for 資料編號, 資料 in 文件檔資料擷取().列出對話資料(檔案位置):
-		print(資料編號)
-		for 族語, _ in 資料:
-			print(族語)
-		print()
-	for 資料編號, 資料 in 文件檔資料擷取().列出對話資料(檔案位置):
-		print(資料編號)
-		for _, 華語 in 資料:
-			print(華語)
-		print()
+	檔案位置 = '/home/tshau/klokah資料/全部語料/senior/xml/02/{}.xml'
+	分類號碼 = [19, 214, 215]
+	for 號碼 in 分類號碼:
+		for 資料編號, 資料 in 文件檔資料擷取()\
+				.列出對話資料(檔案位置.format(號碼)):
+			print('{}_{}'.format(號碼,資料編號))
+			for 族語, _ in 資料:
+				print(族語)
+			print()
+	for 號碼 in 分類號碼:
+		for 資料編號, 資料 in 文件檔資料擷取()\
+				.列出對話資料(檔案位置.format(號碼)):
+			print('{}_{}'.format(號碼,資料編號))
+			for _, 華語 in 資料:
+				print(華語)
+			print()
