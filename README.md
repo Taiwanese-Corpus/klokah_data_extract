@@ -31,3 +31,19 @@
 * 資源下載-教材檔案-千詞表
   * 「【千詞表】學習手冊」有族語和華語解釋
   * 「【千詞表】音檔」有音標
+  
+## 產生檔案
+### 準備curl
+```bash
+```
+
+### 準備python環境
+```bash
+virtualenv --python=python3 venv
+. venv/bin/activate
+pip install beautifulsoup4 lxml
+```
+
+```bash
+python 下載資料 程式/補充教材句型篇.py | bash
+```

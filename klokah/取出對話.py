@@ -43,19 +43,20 @@ class 文件檔資料擷取:
 		return 結果
 
 if __name__ == '__main__':
-	檔案位置 = '/home/tshau/klokah資料/全部語料/senior/xml/02/{}.xml'
-	分類號碼 = [19, 214, 215]
+	檔案位置 = '/home/tshau/klokah資料/全部語料/senior/xml/{0}/{1}.xml'
+	語言編號 = '03'
+	分類號碼 = [18]
 	for 號碼 in 分類號碼:
 		for 資料編號, 資料 in 文件檔資料擷取()\
-				.列出對話資料(檔案位置.format(號碼)):
-			print('{}_{}'.format(號碼,資料編號))
+				.列出對話資料(檔案位置.format(語言編號, 號碼)):
+			print('{}_{}'.format(號碼, 資料編號))
 			for 族語, _ in 資料:
 				print(族語)
 			print()
 	for 號碼 in 分類號碼:
 		for 資料編號, 資料 in 文件檔資料擷取()\
-				.列出對話資料(檔案位置.format(號碼)):
-			print('{}_{}'.format(號碼,資料編號))
+				.列出對話資料(檔案位置.format(語言編號, 號碼)):
+			print('{}_{}'.format(號碼, 資料編號))
 			for _, 華語 in 資料:
 				print(華語)
 			print()
