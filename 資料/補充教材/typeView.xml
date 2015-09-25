@@ -20,6 +20,10 @@
 		<typeCh>選擇題（二）</typeCh>
 	</item>
 	<item>
+		<typeId>6</typeId>
+		<typeCh>配合題</typeCh>
+	</item>
+	<item>
 		<typeId>7</typeId>
 		<typeCh>選擇題（三）</typeCh>
 	</item>
