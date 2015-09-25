@@ -5,6 +5,17 @@ from os.path import dirname, join, abspath
 class 句型篇解析:
     專案目錄 = join(dirname(abspath(__file__)), '..', '..')
 
+    def 解析全部檔案(self):
+        with open(join(self.專案目錄, '資料', '補充教材', 'dialectView.xml')) as 檔案:
+            for 方言 in BeautifulSoup(檔案.read(), 'xml').find_all('item'):
+                語言名 = 方言.find('languageCh').get_text(strip=True)
+                方言編號 = 方言.find('dialectId').get_text(strip=True)
+                方言名 = 方言.find('dialectCh').get_text(strip=True)
+                for 一筆資料 in self.解析一個方言檔案(方言編號):
+                    一筆資料['languageCh'] = 語言名
+                    一筆資料['dialectCh'] = 方言名
+                    yield 一筆資料
+
     def 解析一個方言檔案(self, 方言編號):
         for 級 in ['junior', 'senior']:
             with open(join(self.專案目錄, '資料', '補充教材', 級, 'classView.xml')) as 檔案:
@@ -133,6 +144,8 @@ class 句型篇解析:
             資料
         )
 
-print(句型篇解析().解析一個句型篇檔案('senior', 2, 16))
-for a in 句型篇解析().解析一個方言檔案(2):
+# print(句型篇解析().解析一個句型篇檔案('senior', 2, 16))
+# for a in 句型篇解析().解析一個方言檔案(2):
+#     print(a)
+for a in 句型篇解析().解析全部檔案():
     print(a)
