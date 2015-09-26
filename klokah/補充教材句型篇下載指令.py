@@ -15,13 +15,13 @@ class 句型篇下載:
     def _下載一個句型篇指令(self, 網址):
         方言編號 = []
         with open(join(self.專案目錄, '資料', '補充教材', 'dialectView.xml')) as 檔案:
-            for 方言 in BeautifulSoup(檔案.read(), 'lxml').find_all('item'):
-                方言編號.append(方言.find('dialectid').get_text().strip())
+            for 方言 in BeautifulSoup(檔案.read(), 'xml').find_all('dialectId'):
+                方言編號.append(方言.get_text().strip())
         項目編號 = []
         分類檔 = 'classView.xml'
         with urlopen(join(網址, 分類檔)) as 檔案:
-            for 項目 in BeautifulSoup(檔案.read(), 'lxml').find_all('item'):
-                項目編號.append(項目.find('classid').get_text().strip())
+            for 項目 in BeautifulSoup(檔案.read(), 'xml').find_all('classId'):
+                項目編號.append(項目.get_text().strip())
         下載xml網址 = r'curl "{}/{{{}}}/{{{}}}.xml"  --create-dirs -o "資料/補充教材/{}/#1/#2.xml"'.format(
             網址,
             ','.join(方言編號),
