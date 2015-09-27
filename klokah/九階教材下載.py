@@ -1,13 +1,12 @@
 from builtins import map
 from itertools import product
-from os.path import join, isdir
+from os.path import join
 
 
 from klokah.網站資訊 import 網站方言編號
 from klokah.下載工具 import 下載
 from klokah.網站資訊 import 專案目錄
 from time import sleep
-from os import makedirs
 
 
 class 九階教材下載:
@@ -20,12 +19,9 @@ class 九階教材下載:
             range(1, 11)
         ):
             print(方言, 階, 課)
-            資料目錄 = join(專案目錄, '資料', '九階教材', str(方言))
-            if not isdir(資料目錄):
-                makedirs(資料目錄)
             下載(
                 '{}?d={}&l={}&c={}'.format(self.網站網址, 方言, 階, 課),
-                join(資料目錄, '{}_{}.xml'.format(階, 課))
+                join(專案目錄, '資料', '九階教材', str(方言), '{}_{}.xml'.format(階, 課))
             )
             sleep(10)
 

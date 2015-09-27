@@ -6,7 +6,7 @@ class 補充教材句型篇解析:
     專案目錄 = join(dirname(abspath(__file__)), '..')
 
     def 解析全部檔案(self):
-        with open(join(self.專案目錄, '資料', '補充教材', 'dialectView.xml')) as 檔案:
+        with open(join(self.專案目錄, '資料', 'dialectView.xml')) as 檔案:
             for 方言 in BeautifulSoup(檔案.read(), 'xml').find_all('item'):
                 語言名 = 方言.find('languageCh').get_text(strip=True)
                 方言編號 = 方言.find('dialectId').get_text(strip=True)
