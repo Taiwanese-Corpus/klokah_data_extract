@@ -39,9 +39,10 @@
 
 ### 準備python環境
 ```bash
+sudo apt-get install -y python3 python-virtualenv g++ python-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev
 virtualenv --python=python3 venv
 . venv/bin/activate
-pip install beautifulsoup4 lxml
+pip install beautifulsoup4 lxml pycurl
 ```
 
 ### 下載資料
