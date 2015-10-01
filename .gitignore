@@ -4,8 +4,4 @@ __pycache__/
 /build
 /MANIFEST
 .settings
-*junior*
-*senior*
-*offline*
-*全部語料*
 /venv/

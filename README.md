@@ -33,10 +33,6 @@
   * 「【千詞表】音檔」有音標
   
 ## 產生檔案
-### 準備curl
-```bash
-```
-
 ### 準備python環境
 ```bash
 sudo apt-get install -y python3 python-virtualenv g++ python-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev

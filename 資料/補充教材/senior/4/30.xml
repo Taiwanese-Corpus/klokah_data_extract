@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?><dataroot>
+	<item>
+		<autoId>1014</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>1</choiceOneOrder>
+		<choiceOneAAb>Mitiliday kiso haw?</choiceOneAAb>
+		<choiceOneACh>你在讀書嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, mitiliday kako.</choiceOneBAb>
+		<choiceOneBCh>是的，我在讀書。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1013</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>2</choiceOneOrder>
+		<choiceOneAAb>Mitiliday kiso haw?</choiceOneAAb>
+		<choiceOneACh>你在讀書嗎？</choiceOneACh>
+		<choiceOneBAb>Cuwa, micungaay kako.</choiceOneBAb>
+		<choiceOneBCh>不，我在畫畫。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1012</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>3</choiceOneOrder>
+		<choiceOneAAb>Mafuti'ay ko fafahiyan a safa iso haw?</choiceOneAAb>
+		<choiceOneACh>你妹妹在睡覺嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, mafuti'ay ko mira.</choiceOneBAb>
+		<choiceOneBCh>是的，她在睡覺。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1011</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>4</choiceOneOrder>
+		<choiceOneAAb>Mafuti'ay ko fafahiyan a safa iso haw?</choiceOneAAb>
+		<choiceOneACh>你妹妹在睡覺嗎？</choiceOneACh>
+		<choiceOneBAb>Cuwa, makeroay ko mira.</choiceOneBAb>
+		<choiceOneBCh>不是，她在跳舞。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1010</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>5</choiceOneOrder>
+		<choiceOneAAb>Misalamaay koranan a wawa haw?</choiceOneAAb>
+		<choiceOneACh>那些孩子在玩耍嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, misalamaay koranan a wawa.</choiceOneBAb>
+		<choiceOneBCh>是/對，那些孩子在玩耍。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1009</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>6</choiceOneOrder>
+		<choiceOneAAb>Lumadiway camira haw?</choiceOneAAb>
+		<choiceOneACh>他們在唱歌嗎？</choiceOneACh>
+		<choiceOneBAb>Cuwa, mitiliday camira.</choiceOneBAb>
+		<choiceOneBCh>不是，他們在讀書。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1008</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>7</choiceOneOrder>
+		<choiceOneAAb>Ma'oraday haw?</choiceOneAAb>
+		<choiceOneACh>在下雨嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, ma'oraday.</choiceOneBAb>
+		<choiceOneBCh>是/對，正在下雨。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1007</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>8</choiceOneOrder>
+		<choiceOneAAb>Ma'oraday haw?</choiceOneAAb>
+		<choiceOneACh>在下雨嗎？</choiceOneACh>
+		<choiceOneBAb>Cuwa, masadakaytu ko cidal.</choiceOneBAb>
+		<choiceOneBCh>不，太陽出來了！</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1006</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>9</choiceOneOrder>
+		<choiceOneAAb>Malaliday miliso' to fufuan kamo haw?</choiceOneAAb>
+		<choiceOneACh>你們常常去探望祖父嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, malaliday miliso'  to fufu kami.</choiceOneBAb>
+		<choiceOneBCh>對，我們常常去探望祖父。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1005</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>10</choiceOneOrder>
+		<choiceOneAAb>Mafana'ay mifaca' to riku' kiso haw?</choiceOneAAb>
+		<choiceOneACh>你會洗衣服嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, mafana'ay mifaca' to riku' kako.</choiceOneBAb>
+		<choiceOneBCh>會，我會洗衣服。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1004</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>11</choiceOneOrder>
+		<choiceOneAAb>Mafana'ay lumadiw koranan a wawa haw?</choiceOneAAb>
+		<choiceOneACh>那些孩子會唱歌嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, mafana'ay camira a lumadiw.</choiceOneBAb>
+		<choiceOneBCh>是，他們很會唱歌。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1003</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>12</choiceOneOrder>
+		<choiceOneAAb>Maulahay a mitilid kiso haw?</choiceOneAAb>
+		<choiceOneACh>你喜歡讀書嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, maulahay kako a mitilid.</choiceOneBAb>
+		<choiceOneBCh>是/對，我喜歡讀書。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1002</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>13</choiceOneOrder>
+		<choiceOneAAb>Maulahay micunga kora wawa haw?</choiceOneAAb>
+		<choiceOneACh>那個孩子喜歡畫圖嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, maulahay micunga ko mira.</choiceOneBAb>
+		<choiceOneBCh>是/對，他很喜歡畫圖。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1001</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>14</choiceOneOrder>
+		<choiceOneAAb>Maulahay a lumadiw koranan a  wawa haw?</choiceOneAAb>
+		<choiceOneACh>那些孩子喜歡唱歌嗎？</choiceOneACh>
+		<choiceOneBAb>Hay, maulahay camira a lumadiw.</choiceOneBAb>
+		<choiceOneBCh>是，他們喜歡唱歌。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>1000</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>15</choiceOneOrder>
+		<choiceOneAAb>Maulahay makero koranan a wawa haw?</choiceOneAAb>
+		<choiceOneACh>那些孩子喜歡跳舞嗎？</choiceOneACh>
+		<choiceOneBAb>Cuwa, maulahay minengneng to tilifi camira.</choiceOneBAb>
+		<choiceOneBCh>不，他們喜歡看電視。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+	<item>
+		<autoId>999</autoId>
+		<languageId>1</languageId>
+		<languageCh></languageCh>
+		<dialectId>4</dialectId>
+		<dialectCh></dialectCh>
+		<typeId>4</typeId>
+		<typeCh></typeCh>
+		<classId>30</classId>
+		<classCh>是非問句(問動作進行、能力、喜好--連動結構) </classCh>
+		<classNo>5</classNo>
+		<choiceOneOrder>16</choiceOneOrder>
+		<choiceOneAAb>Maulahay misalama koranan a wawa haw?</choiceOneAAb>
+		<choiceOneACh>那些孩子喜歡玩耍嗎？</choiceOneACh>
+		<choiceOneBAb>Cuwa, maulahay camira a komaen to kakaenen.</choiceOneBAb>
+		<choiceOneBCh>不，他們喜歡吃東西。</choiceOneBCh>
+		<choiceOneCAb></choiceOneCAb>
+		<choiceOneCCh></choiceOneCCh>
+	</item>
+</dataroot>
