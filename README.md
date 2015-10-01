@@ -47,5 +47,6 @@ pip install beautifulsoup4 lxml pycurl
 
 ### 下載資料
 ```bash
-python 下載資料 程式/補充教材句型篇.py | bash
+PYTHONPATH=. python klokah/九階教材下載.py
+PYTHONPATH=. python klokah/補充教材句型篇下載.py
 ```
