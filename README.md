@@ -38,11 +38,29 @@
 sudo apt-get install -y python3 python-virtualenv g++ python-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev
 virtualenv --python=python3 venv
 . venv/bin/activate
-pip install beautifulsoup4 lxml pycurl
+pip install beautifulsoup4 lxml pyyaml
 ```
 
 ### 下載資料
 ```bash
 PYTHONPATH=. python klokah/九階教材下載.py
 PYTHONPATH=. python klokah/補充教材句型篇下載.py
+```
+
+### 輸出文字語料
+```bash
+PYTHONPATH=. python klokah/輸出對齊語料.py
+PYTHONPATH=. python klokah/輸出動詞語料.py
+```
+
+### 臺灣言語資料庫
+```
+PYTHONPATH=. python klokah/轉到臺灣言語資料庫.py
+```
+
+## 開發
+
+### 試驗
+```bash
+python -m unittest
 ```
