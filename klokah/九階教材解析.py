@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from os.path import dirname, join, abspath
+from os.path import join
 from klokah.網站資訊 import 專案目錄
 from itertools import product
 
@@ -12,10 +12,13 @@ class 九階教材解析:
                 語言名 = 方言.find('languageCh').get_text(strip=True)
                 方言編號 = 方言.find('dialectId').get_text(strip=True)
                 方言名 = 方言.find('dialectCh').get_text(strip=True)
-                for 一筆資料 in self.解析一個方言檔案(方言編號):
-                    一筆資料['languageCh'] = 語言名
-                    一筆資料['dialectCh'] = 方言名
-                    yield 一筆資料
+                try:
+                    for 一筆資料 in self.解析一個方言檔案(方言編號):
+                        一筆資料['languageCh'] = 語言名
+                        一筆資料['dialectCh'] = 方言名
+                        yield 一筆資料
+                except:
+                    pass
 
     def 解析一個方言檔案(self, 方言編號):
         for 階, 課 in product(range(1, 10), range(1, 11)):
