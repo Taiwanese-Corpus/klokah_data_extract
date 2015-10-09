@@ -70,6 +70,7 @@ python manage.py 匯入資料 http://Taiwanese-Corpus.github.io/klokah_data_extr
 ```
 
 ## 開發
+[![Build Status](https://travis-ci.org/Taiwanese-Corpus/klokah_data_extract.svg?branch=master)](https://travis-ci.org/Taiwanese-Corpus/klokah_data_extract)
 
 ### 試驗
 ```bash
