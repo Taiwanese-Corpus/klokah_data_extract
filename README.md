@@ -54,8 +54,14 @@ PYTHONPATH=. python klokah/輸出動詞語料.py
 ```
 
 ### 臺灣言語資料庫
-```
+#### 產生檔案
+```bash
 PYTHONPATH=. python klokah/轉到臺灣言語資料庫.py
+```
+
+#### 匯入檔案
+```bash
+python manage.py 匯入資料 http://Taiwanese-Corpus.github.io/klokah_data_extract/族語E樂園.yaml
 ```
 
 ## 開發
