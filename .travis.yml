@@ -1,0 +1,11 @@
+sudo: true
+language: python
+python:
+ - "3.4"
+branches:
+ only:
+  - master
+install:
+ - pip install beautifulsoup4 lxml pyyaml
+script:
+ - python -m unittest
