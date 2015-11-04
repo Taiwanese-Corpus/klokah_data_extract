@@ -12,10 +12,10 @@ class 轉到臺灣言語資料庫:
             '版權': 'Creative Commons 姓名標示-非商業性 3.0 Unported License',
             '著作所在地': '臺灣',
             '著作年': '1996',
-            '相關資料組': [],
+            '下層': [],
 
         }
-        相關資料組 = 全部資料['相關資料組']
+        下層 = 全部資料['下層']
         for 族語, 華語, 方言, 種類 in self._全部族語華語對齊詞條():
             if 華語:
                 這筆資料 = {
@@ -31,7 +31,7 @@ class 轉到臺灣言語資料庫:
                     '種類': 種類,
                     '文本資料': 族語,
                 }
-            相關資料組.append(這筆資料)
+            下層.append(這筆資料)
         with open(self.目標檔名, 'w') as 檔案:
             yaml.dump(全部資料, 檔案, default_flow_style=False, allow_unicode=True)
 
